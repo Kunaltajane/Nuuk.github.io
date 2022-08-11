@@ -1,0 +1,833 @@
+.page1{
+    position: relative;
+width: auto;
+height: 85vh;
+background-position: center;
+margin-top: 2%;
+margin-left: 2%;
+margin-right: 2%;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+background-image: linear-gradient( 76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), 
+url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+background-position-y: 15%;
+
+background-attachment: scroll, fixed;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 60px;
+    
+    padding-right: 10px; */
+    margin-top: 10px;
+    background-color: white;
+    height: 80px;
+   
+}
+
+.nav_text{
+ text-decoration: none;
+ color: black;
+ padding-top: 40px;
+ font-size: 12px;
+ font-weight: 700;
+ letter-spacing: 1px;
+}
+
+.head-item{
+    padding-left: 300px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+   
+  }
+
+  .dropdown-content, a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .nav_logo{
+    background-color: orangered;
+    padding: 30px 25px;
+}
+
+.free-quotes{
+    background-color: orangered;
+    padding: 25px 25px; 
+    color: white;
+}
+
+.nav_section{
+    padding: 10px;
+}
+
+.body_section{
+    padding-top: 20px;
+    padding-left: 5%;
+    line-height: 2px;
+    display: flex;
+}
+
+.body_section, h3{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.body_section, p{
+    font-size: 20px;
+    line-height: 25px;
+    color: gray;
+}
+
+.body_section2{
+    position: absolute;
+    display: block;
+    background-color: orangered;
+    padding: 15px 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    
+}
+
+.body_icon{
+    position: absolute;
+    display: inline;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 29%;
+    background-color: black;
+   
+}
+
+.page1_footer{
+    display: flex;
+    float: right;
+    justify-content: center;
+    padding-top: 5%;
+    padding-right: 10%; 
+     padding-left: 5%;
+    /* padding-bottom: 5%; */
+    position: relative;
+    height: 20%;
+    justify-content: center;
+    height: 200px;
+    background-image: linear-gradient( orangered, rgb(182, 100, 100) );
+    margin: 5% 0% 5%;
+    
+}
+
+.foot_item{
+    /* padding-top: 40px; */
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+.foot_img{
+    padding-left: 25px;
+    
+}
+
+.find_on_map:hover{
+ text-decoration: underline 2px solid white;
+}
+
+/* .page2_heading{
+        position: relative;
+        z-index: 2;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 1px;
+} */
+
+.page2{
+   padding-top: 10%;
+   padding-left: 3%;
+}
+
+.page2-body{
+   
+      display: flex;
+}
+
+.our_service{
+     position: absolute;
+   padding-left: 40%;
+   padding-top: 20px;
+   color: gray;
+}
+
+.our_service:hover{
+    text-decoration: underline 2px solid orangered;
+}
+
+.top-title {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 20%;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.top-title.absolute {
+    position: absolute;
+    left: 18px;
+    top:115%;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 100px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+ 
+.specilization_content{
+    display: flex;
+}
+
+.specilization_item-p{
+    font-size: 16px;
+}
+
+.specilization_item{
+    padding: 25px;
+}
+
+.specilization_more{
+    font-size: 12px;
+}
+.specilization_more:hover{
+  text-decoration: underline 2px solid orangered;
+}
+
+.page3{
+    display: flex;
+}
+
+.page3_content1{
+    padding: 40px;
+}
+
+.page3_content2{
+    padding: 0px 40px 0px 40px;
+}
+
+.page3_content2_1:hover{
+    text-decoration: underline 2px solid orangered;
+}
+
+.section3_content{
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.fun_text{
+    margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.top-title1 {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 20%;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.top-title1.absolute1 {
+    position: absolute;
+    left: 600px;
+    top:190%;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 100px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+
+.page4{
+    background-color: rgb(221, 218, 218);
+    padding: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+.page4-body{ 
+    display: flex;
+   
+}
+
+.our_work{
+   position: absolute;
+ padding-left: 60%;
+ padding-top: 20px;
+ color: gray;
+}
+
+.our_work:hover{
+  text-decoration: underline 2px solid orangered;
+}
+
+.top-title2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 20%;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.top-title2.absolute2 {
+    position: absolute;
+    left: 20px;
+    top:310%;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 100px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+
+.page4_images{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.hover_image:hover .project_circle{
+    display: block;
+}
+
+
+.project_circle {
+    display: none;
+    font-size: 12px;
+   position: absolute;
+   border-radius: 100%;
+   padding-top: 40px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 40px;
+   background-color: #e47312;
+    place-items: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.page4_back_img {
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #e47312;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+}
+
+.free-quotes1{
+    /* position: absolute; */
+  
+    padding-left: 45%;
+   
+    color: white;
+}
+
+.free-quotes1:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.page4_head1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    padding-left: 25%;
+}
+
+.page4_head2{
+    /* font-size: 28px; */
+    letter-spacing: 1px;
+    justify-content: space-between;
+    padding-left: 30%;
+}
+.page4_1-body{ 
+    display: flex;
+   
+}
+.about_us{
+    position: absolute;
+  padding-left: 60%;
+  padding-top: 20px;
+  color: gray;
+ }
+ 
+ .about_us:hover{
+   text-decoration: underline 2px solid orangered;
+ }
+
+ .top-title3 {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 20%;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.top-title3.absolute3 {
+    position: absolute;
+    left: 20px;
+    top:495%;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 100px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+
+.team_photo{
+    display: flex;
+    justify-content: center;
+}
+
+.team_img1 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.team_img2 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.team_img3 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.team_img4 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg);
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.team_info{
+   padding-left: 20px;  
+}
+
+.team_photo1{
+    background-color: white;
+    margin: 10px;
+}
+
+.team_photo2{
+    background-color: white;
+    margin: 10px;
+}
+
+.team_photo3{
+    background-color: white;
+    margin: 10px;
+}
+
+.team_photo4{
+    background-color: white;
+    margin: 10px;
+}
+
+.team_icon{
+    position: absolute;
+    display: inline;
+    padding: 18px;
+    margin-top: 18.5%;
+    margin-left: 14.8%;
+    background-color: #e47312;
+}
+
+.testimonials_section{
+    background-color: rgb(221, 218, 218);
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-columns: 35% 20% 24%;
+    justify-content: space-between;
+}
+.testimonials{
+    padding-top: 30%;
+}
+
+.top-title4 {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 20%;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.top-title4.absolute4 {
+    position: absolute;
+    left: 20px;
+    top:615%;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 94px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+.testimonials_services{
+    color: gray;
+}
+.testimonials_services:hover{
+text-decoration: underline 2px solid orangered;
+}
+
+.pause_symbol{
+    position: absolute;
+    border-radius: 90%;
+    padding: 20px;
+    background-color: #e47312;
+    color: white;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    
+}
+
+.testimonials_box{
+    background-color: white;
+    width: 300px;
+    height: 200;
+    margin-bottom: 10%;
+}
+
+.testimonials_box_content{
+    font-family: Dosis, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid_box{
+    margin: 20%;
+
+}
+
+.News_section{
+    padding-top: 40px;
+    padding-left: 60px;
+    display: flex;
+}
+
+.top-title5 {
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 20%;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.top-title5.absolute5 {
+    position: absolute;
+    left: 40px;
+    top:708%;
+    z-index: 1;
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 94px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+.view_blog{
+    color: gray;
+    
+    
+}
+.view_blog:hover{
+text-decoration: underline 2px solid orangered;
+}
+.view_blog_container{
+     margin-left: 59%;
+     margin-top: 3%;
+}
+
+
+
+.Blog_1 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg);
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.post1{
+    position: absolute;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #f57504, #ee1410);
+    /* margin-right: 21.2%; */
+}
+
+.Blog1_info{
+    padding: 10px;
+}
+#post_head1{
+    color: white;
+    font-size: 18px;
+}
+
+#blog_more_post1{
+    color: white;
+}
+
+#blog_more_post1:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.Date_icon{
+    /* display: inline-block; */
+    float: right;
+   
+}
+
+.date_blog1{
+    background-color: #e47312;
+     padding: 20px;
+     color: white;
+}
+.date_blog2{
+    background-color: white;
+     padding: 10px;
+     color: gray;
+}
+/* blog2-css */
+.Blog2 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg);
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.post2{
+    position: absolute;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #f57504, #ee1410);
+    
+}
+
+.Blog2_info{
+    padding: 10px;
+}
+#post_head2{
+    color: white;
+    font-size: 18px;
+}
+
+#blog_more_post2{
+    color: white;
+}
+
+#blog_more_post2:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.Date_icon2{
+    /* display: inline-block; */
+    float: right;
+   
+}
+
+.date_blog2_1{
+    background-color: #e47312;
+     padding: 20px;
+     color: white;
+}
+.date_blog2_2{
+    background-color: white;
+     padding: 10px;
+     color: gray;
+}
+
+/* blog3-css */
+
+.Blog3 {
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg);
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.post3{
+    position:absolute;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #f57504, #ee1410);
+    /* position: absolute; */
+}
+
+.Blog3_info{
+    padding: 10px;
+}
+#post_head3{
+    color: white;
+    font-size: 18px;
+}
+
+#blog_more_post3{
+    color: white;
+}
+
+#blog_more_post3:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.Date_icon3{
+    /* display: inline-block; */
+    float: right;
+   
+}
+
+.date_blog3_1{
+    background-color: #e47312;
+     padding: 20px;
+     color: white;
+}
+.date_blog3_2{
+    background-color: white;
+     padding: 10px;
+     color: gray;
+}
+
+.section5{
+    padding-left: 50px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+.Logo_container{
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #f57504, #ee1410);
+    height: 40px;
+    width: 90%;
+    margin-top: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+}
+.Logo_text{
+    font-family: Dosis, sans-serif;;
+    font-size: 22px;
+    color: white;
+}
+
+.footer_logo{
+    position: absolute;
+    background-color: #e47312;
+    padding: 20px;
+    /* margin-top: 20%; */
+}
+.End_footer{
+    height: 100%;
+    background-color: blue;
+    background-image: linear-gradient(158deg, rgb(4, 4, 44), black);
+    /* height: 100%; */
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.footer_item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.footer_content{
+    color: white;
+    font-family: Dosis, sans-serif;;
+    font-size: 12px;
+ 
+}
+
+.line{
+   color: #e47312;
+}
+.footer_map{
+    color: white;
+}
+.footer_map:hover{
+    text-decoration: underline 2px solid white;
+}
+
